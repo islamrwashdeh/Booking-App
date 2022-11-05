@@ -6,16 +6,16 @@ import List from "./pages/list/List";
 function App() {
   return (
      
-    <h1>kkkkkkkkkkkkk</h1>
-  //   <BrowserRouter>
+  
+    <BrowserRouter>
     
-  //   <Routes>
-  //     <Route path="/" element={<Home/>}/>
-  //     <Route path="/hotels" element={<List/>}/>
-  //     <Route path="/hotels/:id" element={<Hotel/>}/>
-  //     {/* <Route path="/login" element={<Login/>}/> */}
-  //   </Routes>
-  // </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/hotels" element={<List/>}/>
+      <Route path="/hotels/:id" element={<Hotel/>}/>
+      {/* <Route path="/login" element={<Login/>}/> */}
+    </Routes>
+  </BrowserRouter>
   );
 }
 
